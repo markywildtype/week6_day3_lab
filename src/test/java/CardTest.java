@@ -11,12 +11,12 @@ public class CardTest {
 
     @Before
     public void before(){
-        card  = new Card("HEARTS");
+        card  = new Card(Suit.HEARTS);
     }
 
     @Test
     public void cardHasSuit(){
-        assertEquals("HEARTS", card.getSuit());
+        assertEquals(Suit.HEARTS, card.getSuit());
     }
 
 }
