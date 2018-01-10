@@ -19,6 +19,10 @@ public class Player {
     }
 
     public ArrayList<Card> getHand() {
-        return hand;
+        return this.hand;
+    }
+
+    public void getHandValue(Player player) {
+        player.getHand().get(0).getRank().getValue();
     }
 }
