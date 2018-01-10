@@ -18,9 +18,18 @@ public class WinCheckerTest {
         player1 = new Player("Marky");
         player2 = new Player("Graeme");
         player1.getCard(card1);
-        player1.getCard(card2);
+        player2.getCard(card2);
         winChecker = new WinChecker(player1, player2);
     }
+
+    @Test
+    public void canGetHandValue(){
+        int actual = winChecker.getHandValue(player1);
+        int actual2 = winChecker.getHandValue(player2);
+        assertEquals(14, actual);
+        assertEquals(8, actual2);
+    }
+
 
     @Test
     public void playerWins(){
