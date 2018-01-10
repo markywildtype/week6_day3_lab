@@ -1,28 +1,34 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck {
 
-    private ArrayList<Card> deck;
+    private ArrayList<Card> cards;
 
     public Deck(){
-        deck = new ArrayList<>();
+        cards = new ArrayList<>();
         fillDeck();
+        deckShuffle();
     }
 
     public int cardCount() {
-        return this.deck.size();
+        return this.cards.size();
     }
 
     public void fillDeck() {
         for (Suit suit: Suit.values()){
             for (Rank rank: Rank.values()){
                 Card cardToAdd = new Card(suit, rank);
-                deck.add(cardToAdd);
+                cards.add(cardToAdd);
             }
         }
     }
 
-    public ArrayList<Card> getDeck(){
-        return this.deck;
+    public void deckShuffle() {
+        Collections.shuffle(cards);
+    }
+
+    public ArrayList<Card> getCards(){
+        return this.cards;
     }
 }

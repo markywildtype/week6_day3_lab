@@ -20,11 +20,15 @@ public class DeckTest {
         assertEquals(52, deck.cardCount());
     }
 
+    @Ignore//hard to test randomness!
+    public void deckIsShuffled(){
+
+    }
 
     @Ignore//can't easily compare
     public void deckContainsCard(){
         deck.fillDeck();
-        assertEquals(true, deck.getDeck().equals(card));
+        assertEquals(true, deck.getCards().equals(card));
     }
 
 }

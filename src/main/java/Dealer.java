@@ -14,11 +14,8 @@ public class Dealer {
         return deck;
     }
 
-
-    public ArrayList<Card> shuffle() {
-        ArrayList<Card> shuffleDeck = deck.getDeck();
-        Collections.shuffle(shuffleDeck);
-        return shuffleDeck;
-    }
+//    public Card deal(){
+//
+//    }
     //TODO create deal method
 }
