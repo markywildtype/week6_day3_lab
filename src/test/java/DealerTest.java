@@ -22,4 +22,10 @@ public class DealerTest {
     public void dealerShuffleReturnsFullDeck(){
         assertEquals(52, dealer.shuffle().size());
     }
+
+    @Test
+    public void dealerCanDealCard(){
+        dealer.deal();
+        assertEquals(51, dealer.getDealerDeck().getDeck().size());
+    }
 }

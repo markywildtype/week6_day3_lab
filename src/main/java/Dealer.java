@@ -20,4 +20,5 @@ public class Dealer {
         Collections.shuffle(shuffleDeck);
         return shuffleDeck;
     }
+    //TODO create deal method
 }
