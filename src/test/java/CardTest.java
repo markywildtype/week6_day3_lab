@@ -11,18 +11,22 @@ public class CardTest {
 
 
     @Before
-    public void before(){
-        card  = new Card(Suit.HEARTS, Rank.ACE);
+    public void before() {
+        card = new Card(Suit.HEARTS, Rank.ACE);
     }
 
     @Test
-    public void cardHasSuit(){
+    public void cardHasSuit() {
         assertEquals(Suit.HEARTS, card.getSuit());
     }
 
     @Test
-    public  void cardHasRank(){
+    public void cardHasRank() {
         assertEquals(Rank.ACE, card.getRank());
     }
 
+    @Test
+    public void cardRankHasValue(){
+        assertEquals(14, card.getRank().getValue());
+    }
 }
