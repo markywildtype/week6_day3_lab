@@ -14,15 +14,12 @@ public class DealerTest {
 
     @Test
     public void dealerHasDeck(){
-//        assertEquals(52, dealer.getDealerDeck().getCards().size());
         assertEquals(52, dealer.getDeckSize());
     }
 
-//    @Test
-//    public void dealerCanDealCard(){
-//        dealer.deal();
-//        assertEquals(51, dealer.getDealerDeck().getCards().size());
-//    }
+    @Test
+    public void dealerCanDealCard(){
+        dealer.deal();
+        assertEquals(51, dealer.getDeckSize());
+    }
 }
-
- //TODO refactor the dealer deck size into one method!

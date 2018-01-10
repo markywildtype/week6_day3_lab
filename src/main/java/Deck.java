@@ -31,4 +31,9 @@ public class Deck {
     public ArrayList<Card> getCards(){
         return this.cards;
     }
+
+    public Card dealCard() {
+        Card dealtCard = this.cards.remove(0);
+        return dealtCard;
+    }
 }

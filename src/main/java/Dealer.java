@@ -18,9 +18,10 @@ public class Dealer {
         return this.deck.cardCount();
     }
 
-//    public Card deal(){
-//
-//    }
+    public Card deal(){
+        Card card = this.deck.dealCard();
+        return card;
+    }
 
 
     //TODO create deal method
