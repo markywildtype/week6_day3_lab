@@ -14,8 +14,14 @@ public class Dealer {
         return deck;
     }
 
+    public int getDeckSize(){
+        return this.deck.cardCount();
+    }
+
 //    public Card deal(){
 //
 //    }
+
+
     //TODO create deal method
 }
