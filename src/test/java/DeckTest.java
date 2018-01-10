@@ -16,15 +16,10 @@ public class DeckTest {
     }
 
     @Test
-    public void deckStartsEmpty(){
-        assertEquals(0, deck.cardCount());
-    }
-
-    @Test
-    public void deckHasCards(){
-        deck.fillDeck();
+    public void deckStartsWithFiftyTwoCards(){
         assertEquals(52, deck.cardCount());
     }
+
 
     @Ignore//can't easily compare
     public void deckContainsCard(){
