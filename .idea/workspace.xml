@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df15807-aee9-410b-afcd-0389d11382fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Player.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
+    <list default="true" id="6df15807-aee9-410b-afcd-0389d11382fc" name="Default" comment="Player gets card when dealt card by dealer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dealer.java" afterPath="$PROJECT_DIR$/src/main/java/Dealer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" afterPath="$PROJECT_DIR$/src/main/java/Player.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DealerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DealerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -93,8 +95,8 @@
       <file leaf-file-name="Dealer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dealer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
@@ -108,17 +110,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
+      <file leaf-file-name="DealerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DealerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="345">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,12 +127,29 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -450,8 +467,8 @@
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dealer.java" />
         <option value="$PROJECT_DIR$/src/test/java/DealerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealer.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
       </list>
@@ -549,7 +566,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.playerHasName">
+  <component name="RunManager" selected="JUnit.PlayerTest.playerHasCard">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -631,15 +648,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.playerHasCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="HighestCard_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="playerHasCard" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -732,19 +749,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerHasDeck" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DealerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerCanDealCard" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.playerHasName" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerHasDeck" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DealerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerCanDealCard" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerTest.playerHasName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.playerHasCard" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PlayerTest.playerHasName" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PlayerTest.playerHasCard" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerCanDealCard" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerHasDeck" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DealerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DeckTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerTest.playerHasName" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DealerTest.dealerHasDeck" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DealerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -825,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515606965975</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created Player class with name property">
+      <created>1515607470438</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1515607470438</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -838,23 +862,23 @@
     <history-entry file="DealerTest_dealerCanDealCard - 2018.01.10 at 17h 55m 25s.xml">
       <configuration name="DealerTest.dealerCanDealCard" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DealerTest_dealerCanDealCard - 2018.01.10 at 18h 14m 44s.xml">
+      <configuration name="DealerTest.dealerCanDealCard" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DealerTest_dealerHasDeck - 2018.01.10 at 17h 47m 35s.xml">
       <configuration name="DealerTest.dealerHasDeck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest_deckContainsCard - 2018.01.10 at 14h 38m 47s.xml">
-      <configuration name="DeckTest.deckContainsCard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest_deckHasCards - 2018.01.10 at 14h 22m 03s.xml">
-      <configuration name="DeckTest.deckHasCards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest_deckStartsEmpty - 2018.01.10 at 13h 58m 52s.xml">
-      <configuration name="DeckTest.deckStartsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeckTest_deckStartsEmpty - 2018.01.10 at 15h 11m 32s.xml">
       <configuration name="DeckTest.deckStartsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeckTest_deckStartsWithFiftyTwoCards - 2018.01.10 at 15h 12m 29s.xml">
       <configuration name="DeckTest.deckStartsWithFiftyTwoCards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_playerHasCard - 2018.01.10 at 18h 20m 10s.xml">
+      <configuration name="PlayerTest.playerHasCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_playerHasCard - 2018.01.10 at 18h 23m 27s.xml">
+      <configuration name="PlayerTest.playerHasCard" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PlayerTest_playerHasName - 2018.01.10 at 18h 04m 02s.xml">
       <configuration name="PlayerTest.playerHasName" configurationId="JUnit" />
@@ -881,7 +905,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -942,7 +966,8 @@
     <MESSAGE value="Added shuffle method to deck which is called on instantiation." />
     <MESSAGE value="Created method to count cards in Dealer's deck - refactoring" />
     <MESSAGE value="Added deal method to Dealer and associated method to Deck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added deal method to Dealer and associated method to Deck" />
+    <MESSAGE value="Created Player class with name property" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Player class with name property" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1004,10 +1029,8 @@
           <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1113,38 +1136,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DealerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="345">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dealer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
@@ -1170,28 +1175,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="303">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
